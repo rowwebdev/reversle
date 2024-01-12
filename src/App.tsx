@@ -13,7 +13,7 @@ function App() {
   const [usedLetters, setUsedLetters] = useState<ILetter[]>([]);
   const [errors, setErrors] = useState<IResult[]>([]);
   const [complete, setComplete] = useState(false);
-  let todaysWord = useRef<{letter:String, found:Boolean}[]>(null);
+  let todaysWord = useRef<{letter:string, found:boolean}[]>([]);
 
   useEffect(() => {
     todaysWord.current = [

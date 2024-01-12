@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Letter from '../Letter/Letter';
 import { ILetter } from '../Word/Word';
 

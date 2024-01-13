@@ -17,11 +17,11 @@ function App() {
 
   useEffect(() => {
     todaysWord.current = [
-      {letter: 'P', found: false},
-      {letter: 'A', found: false},
-      {letter: 'I', found: false},
+      {letter: 'O', found: false},
+      {letter: 'U', found: false},
       {letter: 'N', found: false},
-      {letter: 'T', found: false}
+      {letter: 'C', found: false},
+      {letter: 'E', found: false}
     ];
   }, []);
 
